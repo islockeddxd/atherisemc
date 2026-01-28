@@ -1,0 +1,62 @@
+{
+    "version": "1.0.0",
+    "rss": "http://play.atherisemc.com/news.rss",
+    "servers": [
+        {
+            "id": "atherise-1.20.4",
+            "name": "AtheriseMC - 1.20.4",
+            "description": "Atherise Sunucusu 1.20.4 Sürümü",
+            "icon": "https://raw.githubusercontent.com/islockeddxd/atherisemc/main/atherise.png",
+            "version": "1.0.0",
+            "address": "play.atherisemc.com",
+            "minecraftVersion": "1.20.4",
+            "discord": {
+                "shortId": "Atherise 1.20.4",
+                "largeImageText": "AtheriseMC",
+                "largeImageKey": "seal"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "1.20.4",
+                    "name": "Minecraft 1.20.4",
+                    "type": "version",
+                    "artifact": {
+                        "size": 24445539,
+                        "MD5": "f7477a4e542bf5ba480fdacf0e249da9",
+                        "url": "https://piston-data.mojang.com/v1/objects/fd19469fed4a4b4c15b2d5133985f0e3e7816a8a/client.jar"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "atherise-1.21.1",
+            "name": "AtheriseMC - 1.21.1",
+            "description": "Atherise Sunucusu 1.21.1 Sürümü",
+            "icon": "https://raw.githubusercontent.com/islockeddxd/atherisemc/main/atherise.png",
+            "version": "1.0.0",
+            "address": "play.atherisemc.com",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "Atherise 1.21.1",
+                "largeImageText": "AtheriseMC",
+                "largeImageKey": "seal"
+            },
+            "mainServer": false,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "1.21.1",
+                    "name": "Minecraft 1.21.1",
+                    "type": "version",
+                    "artifact": {
+                        "size": 26836906,
+                        "MD5": "0b90a83eb9910468c60152f6594b9271",
+                        "url": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
